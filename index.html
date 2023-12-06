@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content=""width=device-width, initial-scaler="1"
+        <title>todo list</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="todo-app">
+                <!-- heading -->
+                <h2>To-do list <img src="todo icon.webp"></h2>
+                
+                <div class="row">
+                    <!-- text box at the top to add a todo item to the list. -->
+                    <input type="text" id="input-box" placeholder="Add your text">
+                    <!-- Add button:when a user clicks on the button, add that todo item to the list.-->
+                    <button class="button-text" onClick="addTask()">Add</button>
+                </div>
+                <!-- showing task list -->
+                <ul id="list-container">
+                    
+                </ul>
+                <hr/>
+                <!-- number of tasks -->
+                <div class="task-left">
+                    <p><span id="todoCount">0</span> tasks left</p>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+        
+
+        <script src="script.js"></script>   
+    </body>
+
+</html>
